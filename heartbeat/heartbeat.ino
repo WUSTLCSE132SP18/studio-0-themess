@@ -20,5 +20,4 @@ void loop() {
   digitalWrite(13, LOW);
   Serial.print(n/1000 + 1);
   Serial.println(" seconds have elapsed.");
-  Serial.println(n);
 }
